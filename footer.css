@@ -1,0 +1,29 @@
+.footer {
+  background-color: #006400;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.footer h2 {
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+}
+
+.footer p {
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+.footer .socials a img {
+  width: 32px;
+  height: 32px;
+  margin: 0 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.footer .socials a:hover img {
+  transform: scale(1.2);
+}
